@@ -1,0 +1,37 @@
+.welland{width:968px;margin:0 auto;padding-bottom:50px;}
+.welland img{position:absolute;top:152px;left:50%;margin-left:-628px;}
+.lang_logo{height:92px;padding-top:30px;}
+.logo_img{height:57px;float:left;}
+.logo_img a{width:185px;height:57px;background:url(../css/img/welland.gif) no-repeat;float:left;}
+.logo_img span{width:169px;height:57px;background:url(../css/img/welreg_01.gif) no-repeat;float:left;}
+.lang_logo p{float:right;margin-top:40px;}
+.lang_logo p a{color:#0089cf;}
+.regnav{height:42px;}
+.regnav1,.regnav2{width:225px;height:42px;cursor:pointer;float:left;line-height:42px;text-align:center;font-size:14px;font-weight:600;background:url(../css/img/welreg_01.gif) no-repeat 0 -58px;color:#fff;}
+.regnav1 span,.regnav2 span{height:16px;padding-left:20px;background:url(../css/img/welreg_01.gif) no-repeat 0 -232px;}
+.regnav2{margin-left:2px;background:url(../css/img/welreg_01.gif) no-repeat 0 -102px;}
+.regnav2 span{background:url(../css/img/welreg_01.gif) no-repeat 0 -302px;color:#777777;}
+.lang_con{width:964px;border:2px solid #ff8400;padding:40px 0 0 120px;}
+/*--验证--*/
+.lang_con .hide{border:0;font-size:18px;}
+#pass{width:400px;}
+.lang_con .ve{margin:0 40px 0 40px;width:50px;font-size:18px;background:#0089cf;border:0;}
+#reminder{width:200px;}
+.phone_n{height:52px;}
+.phone_n span{display:block;text-align:right;padding-right:15px;width:70px;height:37px;line-height:37px;color:##666666;float:left;}
+.item_n{left:left;}
+.phone_n input{width:314px;height:25px;line-height:25px;padding:5px 25px 5px 10px;border:1px solid #a2a2a2;}
+.item_i input{width:122px;padding:5px 10px 5px 10px;float:left;}
+.phone_n .phone_v{width:116px;height:26px;line-height:16px;text-align:center;border:0;background:url(../css/img/welreg_01.gif) no-repeat 0 -146px;float:left;margin:6px 0 0 10px;cursor:pointer;}
+.phone_n .checkbox{float:left;height:13px;width:13px;display:block;margin-top:2px;margin-right:5px;}
+.checkx a{color:#0089CF;}
+.phone_n .item_su{width:126px;height:33px;border:0;background:url(../css/img/welreg_01.gif) no-repeat 0 -175px;cursor:pointer;}
+.item_n p a{color:#0089cf;}
+.item_n p i{color:#eb0007;font-size:15px;}
+.lang2{display:none;}
+
+
+
+
+
+

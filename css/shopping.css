@@ -1,0 +1,68 @@
+/*--购物车状态--*/
+.s_header{width:1000px;margin:0 auto;padding:20px 0;overflow:hidden;}
+.s_header h1{width:188px;float:left;}
+.s_step{border-top:2px solid #ddd;text-align:center;margin:25px 30px 0 0;float:right;}
+.s_step dl{float:left;position:relative;top:-2px;border-top:2px solid #ddd;width:180px;}
+.s_step dt{position:relative;margin:-10px auto 0;color:#fff;width:18px;height:18px;line-height:18px;background:url(img/icon.png) no-repeat 0 -20px;}
+.s_step .s_done{border-top-color:#ff504a;width:90px;}
+.s_step dd{color:#666;margin-top:5px;position:relative;}
+.s_done dt{left:-45px;background:url(img/icon.png) no-repeat;}
+.s_done dd{color:#ff504a;left:-45px;margin-top:5px;position:relative;}
+.s_step .s_last{width:90px;}
+.s_step .s_last dt,.s_step .s_last dd{left:45px;}
+/*--我的购物车--*/
+.l_webz{width:1000px;margin:0 auto;}
+.l_shopcart{padding-top:10px;font-size:16px;color:#222;line-height:21px;}
+.l_cartcon{border:1px solid #e8e8e8;margin-top:10px;}
+.l_cartcon ul{background:#f2f2f2;color:#666;border-bottom:1px solid #e8e8e8;overflow:hidden;}
+.l_cartcon ul li{float:left;text-align:left;}
+.l_titcheck{padding:10px 15px 10px 20px;width:113px;}
+.l_titcheck input{height:13px;vertical-align:middle;width:13px;}
+.l_titcheck label{margin-left:20px;}
+.l_titmeg{padding:10px 80px 10px 0;width:280px;}
+.l_titprice{width:140px;padding:10px 0;}
+.l_titquan{width:70px;padding:10px 70px 10px 0;text-align:center;}
+.l_titsum{width:140px;padding:10px 0;}
+.l_titaction{width:70px;padding:10px 0;}
+.l_cart{border-top:1px solid #e8e8e8;display:block;}
+.l_shopp{padding:20px 0 20px 53px;position:relative;display:inline-block;}
+.l_meg{float:left;color:#666;}
+.l_meg dl dt{float:left;margin-right:15px;}
+.l_meg dl dt img{width:78px;height:78px;border:1px solid #e8e8e8;}
+.l_meg dl dd{padding-right:80px;width:280px;float:left}
+.l_meg dl dd a:hover{text-decoration:underline;}
+.l_meg dl dd .l_pp{margin-top:6px;}
+.l_meg .l_ml{margin-left:30px;}
+.l_prics{float:left;width:140px;margin-top:33px;color:#666;}
+.l_prics p{line-height:20px;}
+.l_quan{float:left;text-align:center;width:70px;padding-right:70px;}
+.l_amount{margin-top:33px;}
+.l_amount a{float: left;width:18px;height:18px;line-height:18px;border:1px solid #ddd;text-align:center;font-size:20px;cursor:pointer;}
+.l_amount input{border:0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;height:18px;line-height:18px;width:30px;float:left;text-align:center;color:#666;}
+.l_csum{float:left;width:140px;color:#666;font-size:14px;margin-top:33px;}
+.l_csum i{font-size:16px;font-weight:bold;}
+.l_ccheck{float:left;width:68px;margin-top:33px;}
+.l_ccheck i{width:18px;height:20px;float:left;cursor:pointer;background:url(img/icon.png) no-repeat 0 -125px;}
+.l_ccheck i:hover{background:url(img/icon.png) no-repeat 0px -149px}
+.l_check{position:absolute;left:20px;top:54px;z-index:100;}
+.l_check input{height:13px;width:13px;vertical-align:middle;}
+.l_cbalan{padding:20px;overflow:hidden;}
+.l_cout{float:right;color:#333;}
+.l_cout p{line-height:22px;}
+.c_rt{width:100px;display:inline-block;text-align:right;float:right;}
+.c_rt i{font-size:14px;}
+.c_lt{width:65px;text-align:right;display:inline-block;float:right}
+.c_piece{float:right;}
+.c_piece i{color:#f00;}
+.fw{font-weight:bold;}
+.c_paid{color:#f00;font-size:16px;}
+.c_paid i{font-size:20px;}
+.l_cbalance{height:50px;background:#f2f2f2;border-top:1px solid #e8e8e8;}
+.b_check{float: left;padding:17px 0 0 20px;}
+.b_check input{height:13px;width:13px;vertical-align:middle;}
+.b_check label{margin-left:10px;color:#666;cursor:pointer;}
+.b_del{float:left;color:#666;margin-left:20px;margin-top:18px;cursor:pointer;}
+.b_del i{width:17px;height:16px;display:inline-block;margin-right:5px;cursor:pointer;float:left;background:url(img/icon.png) no-repeat -32px -127px;}
+.b_del i:hover{background:url(img/icon.png) no-repeat -32px -152px;}
+.l_submit{float:right;width:160px;text-align:center;font-size:18px;font-weight:bold;color:#fff;background:#ff504a;line-height:50px}
+

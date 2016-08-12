@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商品详情</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/details.css">
+
+</head>
+<body>
+	<div class="topad" id="top">
+		<div class="ad_img"><a href="#"><img src="../img/topab.jpg"></a></div>
+	</div>
+	<!-- 右侧广告 -->
+	<div class="sidebar-out"></div>
+	<div class="sidebar">
+		<ul class="bar-top">
+			<li class="sid_r"><a href=""></a></li>
+			<li class="sid_rl" id="sid_rl"><a href="shopping.html"><em class="cart-num" id="cart_num">1</em></a></li>
+			<li class="sid_rn"><a href=""></a></li>
+			<li class="sid_rg"><a href=""></a></li>
+		</ul>
+		<ul class="bar-bo">
+			<li class="sid_br"><a href=""></a></li>
+			<li class="sid_brl"><a href=""></a></li>
+			<li class="sid_brn"><a href="#top"></a></li>
+		</ul>
+	</div>
+	<!-- top-nav -->
+	<div class="topnav">
+		<div class="center_nav">
+			<div class="center_nav_left">
+				<span>公告: &nbsp;&nbsp;</span>
+				<ul class="show_notice">
+					<li><a href="#"> 优品惠（优购物）5周年庆，盛大聚“惠”</a></li>
+					<li><a href="#">【注意】自主语音订购说明</a></li>
+					<li><a href="#">【公告】防诈骗提醒</a></li>
+					<li><a href="#">【紧急通知】关于短信发送异常的公告</a></li>
+				</ul>
+			</div>
+			<div class="center_nav_right">
+				<ul class="">
+					<li><span><a href="register.html">注册</a></span>|</li>
+					<li><span><a href="login.html">登录</a></span>|</li>
+					<li><span><a href="#">我的订单</a></span>|</li>
+					<li><span><a href="#">物流查询</a></span>|</li>
+					<li><span><a href="#">我的关注</a></span>|</li>
+					<li><span><a href="#">资讯</a></span>|</li>
+					<li><span><a href="#">品牌馆</a></span>|</li>
+					<li><span class="outpa"><a href="#">手机优品惠</a>
+						<div class="outpa_d">
+							<img src="../img/foot_ewm.jpg">
+							<i>扫一扫哦~</i>
+						</div>
+					</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="header_logo">
+		<h1 class="logo"><a href="#"><img src="../img/logo.jpg"></a></h1>
+		<div class="search">
+			<form mathod="" action="">
+				<div class="search_ce">
+					<div class="search_l">
+						<input type="text" value="请输入商品名称或货号">
+					</div>
+					<div class="search_r">
+						<input type="button" value="搜索">
+					</div>
+				</div>	
+				<div class="gjc">
+					<span><a href="#">双立人&nbsp; </a>|</span>
+					<span><a href="#">&nbsp; 品牌厨具&nbsp; </a>|</span>
+					<span><a href="#">&nbsp; 惠人&nbsp; </a>|</span>
+					<span><a href="#">&nbsp; 海参&nbsp; </a>|</span>
+					<span><a href="#">&nbsp; 韩束</a></span>
+				</div>
+			</form>
+		</div>
+		<div class="mycart">
+			
+			<div class="car_ba"><span><img src="../img/vehicle.jpg"></span>
+			<a href="#">我的购物车</a></div>
+			<div class="carlist">购物车还没有商品，快去选吧~</div>
+		</div>
+	</div>
+	<!--nav-->
+	<div class="main_nav">
+		<div class="nav">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li class="tv"><a href="#">视频</a></li>
+				<li><a href="#">食品</a></li>
+				<li><a href="#">家居</a></li>
+				<li><a href="#">美妆</a></li>
+				<li><a href="#">服饰</a></li>
+				<li><a href="#">海外购</a></li>
+			</ul>
+			<div class="nav_pull">
+				<a href="" class="nav_a" style="color:#fff;"><span>&equiv;</span> 在售分类 <span class="change">V</span></a>
+				<div class="nav_hide">
+					<dl>
+						<dt><img src="../img/newsix_03.png"><a href="">品质厨房</a></dt>
+						<dd><a href="">电视热销</a></dd>
+						<dd><a href="">品质厨具</a></dd>
+						<dd><a href="">厨房电器</a></dd>
+						<dd><a href="">厨房用具</a></dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/newsix_05.png"><a href="">美食•民生</a></dt>
+						<dd><a href="">电视热销</a></dd>
+						<dd><a href="">进口食品</a></dd>
+						<dd><a href="">营养保健</a></dd>
+						<dd><a href="">特产零食</a></dd>
+						<dd><a href="">粮油干货</a></dd>
+						<dd><a href="">酒水茶饮</a></dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/newsix_07.png"><a href="">健康生活</a></dt>
+						<dd><a href="">电视热销</a></dd>
+						<dd><a href="">优质睡眠</a></dd>
+						<dd><a href="">家居装饰</a></dd>
+						<dd><a href="">清洁收纳</a></dd>
+						<dd><a href="">家庭健身</a></dd>
+						<dd><a href="">生活电器</a></dd>
+						<dd><a href="">日用配件</a></dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/newsix_09.png"><a href="">魅力穿戴</a></dt>
+						<dd><a href="">电视热销</a></dd>
+						<dd><a href="">服装内衣</a></dd>
+						<dd><a href="">鞋包配饰</a></dd>
+						<dd><a href="">旅游户外</a></dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/newsix_13.png"><a href="">珠宝收藏</a></dt>
+						<dd><a href="">电视热销</a></dd>
+						<dd><a href="">珍珠彩宝</a></dd>
+						<dd><a href="">翡翠玉石</a></dd>
+						<dd><a href="">天然木饰</a></dd>
+						<dd><a href="">文化收藏</a></dd>
+					</dl>
+					<dl class="dl_bor">
+						<dt><img src="../img/newsix_11.png"><a href="">美肤靓妆</a></dt>
+						<dd><a href="">电视热销</a></dd>
+						<dd><a href="">品牌护肤</a></dd>
+						<dd><a href="">洗护护理</a></dd>
+						<dd><a href="">彩妆香水</a></dd>
+						<dd><a href="">美容仪器</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 商品 -->
+<div class="details">
+	<div class="sh_crum">
+		当前位置：<a href="">首页</a> > <a href="">服饰</a> > <a href="">服饰内衣</a> > <a href="">内衣</a> > <a href="">俪芙薇尔印花宽松连衣裙XZ1622</a>
+	</div>
+	<div class="d_sh">
+		<div class="d_shl">
+			<div class="d_preview">
+				<a>
+					<img src="../img/un1.jpg" class="jqzoom" rel="../img/un5.jpg">
+				</a>
+			</div>
+			
+			<div class="d_jq">
+				<div class="d_tiems">
+					<ul id="thumblist">
+						<li><img src="../img/un1.jpg"></li>
+						<li><img src="../img/un2.jpg"></li>
+						<li><img src="../img/un3.jpg"></li>
+						<li><img src="../img/un4.jpg"></li>
+						<li><img src="../img/un5.jpg"></li>
+						<li><img src="../img/un6.jpg"></li>
+						<li><img src="../img/un7.jpg"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="d_go">
+				<div class="d_no">商品货号：543703_001</div>
+				<div class="d_daid">
+					<span><i></i> 分享</span><span><em></em> 已关注</span>	
+				</div>
+			</div>
+		</div>
+		<div class="d_shr">
+			<form action="">
+				<div class="dr_br">
+					<span><a href="">俪芙薇尔</a></span>
+				</div>
+				<h1 id="comname">俪芙薇尔印花宽松连衣裙</h1>
+				<div class="dr_des">
+					【买手说】-俪芙薇尔-圆领知性 黄金搭配 圆领高度恰到好处，不张不显，点缀女性的优雅和知性 修身腰节 腰间压褶处理，既起到了修身效果，又符合了裙摆的要求，不显得累赘 时装印花面料 印花面料 清新减龄
+				</div>
+				<div class="dr_box">
+					<ul>
+						<li class="dr_mb">
+							<span class="dr_lab">价格</span>
+							<span class="dr_pr"><i>￥</i><em id="comprice">398</em></span>
+							<span class="dr_or"><i>￥</i>1298</span>
+						</li>
+						<li>
+							<span class="dr_label">优惠</span>
+							<div class="dr_inli">
+								<div>
+									<span class="dr_tag">促销</span>
+									<span>7.22日10点-7.25日10点满200元可使用15元劵！</span>
+								</div>
+								<div>
+									<span class="dr_tag d1">包邮</span>
+									<span>订单金额满168元包邮</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="d_buy">
+					<dl class="d_sen">
+						<dt>送到</dt>
+						<dd>
+							<div class="sen_dd">
+								<span>请选择</span>
+								<i></i>
+							</div>
+							<div></div>
+						</dd>
+					</dl>
+					<dl class="d_color">
+						<dt>尺码</dt>
+						<dd id="d_span">
+							<span>M</span>
+							<span>S</span>
+							<span>L</span>
+							<span>XL</span>
+							<div><i></i><em>尺码表</em></div>
+						</dd>
+					</dl>
+					<dl class="d_num">
+						<dt>数量</dt>
+						<dd>
+							<div class="d_num_box">
+								<a>-</a>
+								<input type="text" value="1" id="counts">
+								<a>+</a>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<div class="d_add">
+					<button type="button" id="subadd"><i></i>加入购物车</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="sh_imgs">
+		<img src="../img/declaration2.jpg">	
+	</div>
+	
+		<div class="group">
+			<div class="related">
+				<div class="g_tab">
+					<div class="g_tabse">
+						<a class="g_acti">商品详情</a>
+						<a class="g_acti g_activ">评论<span>(0)</span></a>
+						<a class="g_acti g_activ">服务说明</a>
+					</div>
+				</div>	
+				<div class="g_data">
+					<h2></h2>
+					<ul class="g_datails">
+						<li>
+							<div class="g_titlea"><span>商品名称</span></div>
+							<div class="g_detail"> 俪芙薇尔印花宽松连衣裙XZ1622</div>
+						</li>
+						<li>
+							<div class="g_titlea"><span>品牌</span></div>
+							<div class="g_detail"> 俪芙薇尔</div>
+						</li>
+						<li>
+							<div class="g_titlea"><span>上架时间</span></div>
+							<div class="g_detail"> 2016-06-28</div>
+						</li>
+						<li>
+							<div class="g_titlea"><span>商品名称</span></div>
+							<div class="g_detail"> 型号：(S-155/80A)（M-160/84A）(L-165/88A)(XL-170/92A) 材质：面料：100%锦纶 撞料：100%锦纶 里料：100%聚酯纤维 颜色：蓝色 产地：中国深圳</div>
+						</li>
+						<li>
+							<div class="g_titlea"><span>包装清单</span></div>
+							<div class="g_detail"> 俪芙薇尔印花宽松连衣裙*1*件</div>
+						</li>
+					</ul>
+					<div class="g_good">
+						<img src="../img/details1.jpg">
+						<img src="../img/details2.jpg">
+						<img src="../img/details3.jpg">
+						<img src="../img/details4.jpg">
+					</div>
+				</div>
+				<div class="g_comment">
+					<h3></h3>
+					<div class="g_combox">
+						<div class="g_inner">
+							<div class="g_select">
+								<ul>
+									<li>
+										<div class="g_custom">
+											<input type="radio" checked id="all" name="comment">
+											<label for="all">
+												<span>全部评论(0)</span>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="g_custom">
+											<input type="radio"  id="alls" name="comment">
+											<label for="alls">
+												<span>好评(0)</span>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="g_custom">
+											<input type="radio" id="alla" name="comment">
+											<label for="alla">
+												<span>中评(0)</span>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="g_custom">
+											<input type="radio" id="allb" name="comment">
+											<label for="allb">
+												<span>差评(0)</span>
+											</label>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="g_showpic">
+								<div class="g_checkbox">
+									<input type="radio" id="allt" name="comment">
+									<label for="allt">
+									<span>有晒图</span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="g_commentbox">
+							<ul>
+								<li>该商品暂无评价。</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="g_service">
+					<h3></h3>
+					<div class="g_servicbox">
+						<img src="../img/fei-service-pay.jpg">
+						<img src="../img/fei-service-ps.jpg">
+						<img src="../img/fei-service-tui.jpg">
+					</div>
+					<div class="g_shgodds">
+						<dl>
+							<dt>使用指南：</dt>
+							<dd>1. 小胸新娘如何拍出丰满迷人婚纱照</dd>
+							<dd>2. 什么是胸外扩 胸外扩的预防及保养</dd>
+							<dd>3. 胸外扩应该穿什么样的内衣</dd>
+							<dd>4. 女人应该怎样塑造完美胸型</dd>
+							<dd>5. 塑造沙漏型身材 紧身衣三宗罪是真是假</dd>
+							<dd>6. 调整型文胸有丰胸功效吗 常见调整型文胸Q&A</dd>
+							<dd>7. 调整型文胸和普通文胸有什么区别</dd>
+							<dd>8. 调整型文胸的正确穿着方法</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="g_showsimi">
+				<div class="g_header">
+					 看看其他同类商品
+				</div>
+				<ul>
+					<li>
+						<a href="">
+							<img src="../img/Similar.jpg">
+							<i>俪芙薇尔桑蚕丝印花中长款连衣裙ZF1609</i>
+							<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../img/Similar1.jpg">
+							<i>俪芙薇尔桑蚕丝印花中长款连衣裙ZF1609</i>
+							<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../img/Similar2.jpg">
+							<i>俪芙薇尔桑蚕丝印花中长款连衣裙ZF1609</i>
+							<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../img/Similar3.jpg">
+							<i>俪芙薇尔桑蚕丝印花中长款连衣裙ZF1609</i>
+							<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="watching">
+			<h4>大家都在看</h4>
+			<ul>
+				<li>
+					<a href="">
+						<img src="../img/look.jpg">
+						<i>[Cécilene]高弹塑身内裤5件组</i>
+						<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="../img/look1.jpg">
+						<i>[Cécilene]高弹塑身内裤5件组</i>
+						<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="../img/look2.jpg">
+						<i>[Cécilene]高弹塑身内裤5件组</i>
+						<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="../img/look3.jpg">
+						<i>[Cécilene]高弹塑身内裤5件组</i>
+						<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="../img/look4.jpg">
+						<i>[Cécilene]高弹塑身内裤5件组</i>
+						<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="../img/look5.jpg">
+						<i>[Cécilene]高弹塑身内裤5件组</i>
+						<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="../img/look6.jpg">
+						<i>[Cécilene]高弹塑身内裤5件组</i>
+						<span class="g_prine"><em>￥398</em><b>￥1598.00</b></span>
+					</a>
+				</li>			
+			</ul>
+		</div>
+	
+</div>
+<!--footer-->
+<div class="fooer">
+	<div class="fooad"><img src="../img/footer_ad.jpg"></div>
+	<div class="webz">
+		<dl class="flis">
+			<dt>新手上路</dt>
+			<dd><a href="">新用注册</a></dd>
+			<dd><a href="">忘记密码</a></dd>
+			<dd><a href="">购物流程</a></dd>
+		</dl>
+		<dl class="flis">
+			<dt>支付配送</dt>
+			<dd><a href="">货到付款</a></dd>
+			<dd><a href="">支付宝</a></dd>
+			<dd><a href="">配送方式</a></dd>
+		</dl>
+		<dl class="flis">
+			<dt>会员服务</dt>
+			<dd><a href="">服务承诺</a></dd>
+			<dd><a href="">会员制度</a></dd>
+			<dd><a href="">积分介绍</a></dd>
+			<dd><a href="">退换货原则</a></dd>
+		</dl>
+		<dl class="flis" style="border:0;">
+			<dt>关于优品惠</dt>
+			<dd><a href="">企业介绍</a></dd>
+			<dd><a href="">联系我们</a></dd>
+			<dd><a href="">招商专区</a></dd>
+		</dl>
+		<dl class="flis1">
+			<dt>
+				<a href="">
+					<img src="../img/foot_ewm.jpg">
+					<i>手机优品惠</i><br/>
+					<em>(优购物)</em>
+				</a>
+			</dt>
+			<dd></dd>
+		</dl>
+		<img src="../img/foot_dh.jpg" class="fi_img">
+	</div>
+	<div class="foor_bo">
+		<p class="foor_nav"><a href="">首页 &nbsp;｜&nbsp; </a><a href="">关于优品惠 &nbsp;｜ &nbsp;</a><a href="">优购物&nbsp; ｜&nbsp; </a><a href="">惠买集团 &nbsp;｜&nbsp; </a><a href="">联系我们 &nbsp;｜&nbsp; </a><a href="">招贤纳士&nbsp; ｜&nbsp; </a><a href="">招商专区&nbsp; ｜&nbsp; </a><a href="">供应商入口&nbsp; ｜&nbsp; </a><a href="">友情链接 &nbsp;｜&nbsp; </a><a href="">网站地图 &nbsp;｜&nbsp; </a><a href="">资讯中心 &nbsp;｜&nbsp; </a><a href="">评论&nbsp; ｜&nbsp; </a><a href="">图片</a></p>
+		
+		<p>优品惠（优购物）全球优品特卖网站 专属于千万女性的优品特卖网站,优品惠（优购物）电视购物官方网站,100%正品保证 支持货到付款.</p>
+		<p>Copyright©2007-2016 公司名称:北京优品惠网络科技有限公司 统一社会信用代码:91110302339739621C  ICP备案号:京ICP备15039150号-1 食品经营许可证编号:JY11131010332635</p>
+		<p>公司地址:北京市经济技术开发区同济南路19号 服务热线：400-707-0707</p>
+		<div class="foor_b"><p><img src="../img/bei.png">京公网安备 11030102000055号</p></div>
+	</div>
+</div>
+	<script src="../assets/jquery-1.12.0.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/details.js"></script>
+	<script src="../assets/jquery.imagezoom.min.js"></script>
+	<script src="../assets/jquery.count.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$(".jqzoom").imagezoom();
+
+			$("#thumblist li").click(function(){
+			$(".jqzoom").attr('src',$(this).find("img").attr("src"));
+			$(".jqzoom").attr('rel',$(this).find("img").attr("src"));
+			});
+						
+		});
+	</script>	
+</body>
+</html>

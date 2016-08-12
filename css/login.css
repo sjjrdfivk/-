@@ -1,0 +1,39 @@
+.welland{width:968px;margin:0 auto;padding-bottom:50px;}
+.welland img{position:absolute;top:152px;left:50%;margin-left:-628px;}
+.lang_logo{height:92px;padding-top:30px;}
+.logo_img{height:57px;float:left;}
+.logo_img a{width:185px;height:57px;background:url(../css/img/welland.gif) no-repeat;float:left;}
+.logo_img span{width:169px;height:57px;background:url(../css/img/welland.gif) no-repeat 0 -58px;float:left;}
+.lang_logo p{float:right;margin-top:40px;}
+.lang_logo p a{color:#0089cf;}
+.lang_logo p i{color:#eb0007;font-size:15px;}
+.lang_con{width:964px;height:374px;border:2px solid #ff8400;}
+.lang_con_l{width:432px;padding-left:132px;padding-top:62px;float:left;}
+.land_item{width:351px;height:65px;}
+.land_us{width:315px;height:25px;padding:5px 25px 5px 10px;border:1px solid #a2a2a2;}
+.land_item span{height:30px;display:block;line-height:30px;}
+.land_pa{width:351px;height:31px;margin-top:10px}
+.land_pa em{float:left;vertical-align:top;}
+.land_pa i{float:right;color:#0089cf;cursor:pointer;}
+.land_pa i:hover{text-decoration:underline;}
+.land_lo{height:37px;margin-top:10px}
+.land_lo input{width:351px;height:37px;border:none;background:url(../css/img/welland.gif) no-repeat 0 -118px;}
+.lang_con_r{width:217px;padding:58px 0  0 82px;height:316px;background:#fff6ec;float:right;}
+.lang_con_r a{width:142px;height:32px;display:block;line-height:32px;border:1px solid #ff8400;color:#ff8400;text-align:center;border-radius:2px;margin-top:10px;background:#fff;}
+.lang_con_r span{font-size:14px;}
+.lang_con_r .lang_sp{padding-top:40px;display:block;}
+#submit{cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
